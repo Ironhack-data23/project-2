@@ -51,8 +51,16 @@ The aim of this study is to study the footwear products that these brands sell. 
 
 
 ## Conclusion - Conclusions of the project
+We can not conclude which brand is better, as it would be very abstract 
 
 
+
+## Links
+[Canvas presentation](https://www.canva.com/design/DAFyzb5F0HQ/HWRenM9ZBpqAnCaT7Abuew/edit?utm_content=DAFyzb5F0HQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+[Nike oficial website](https://www.nike.com/es/w/zapatillas-y7ok)
+
+[Adidas oficial website](https://www.adidas.es/zapatillas)
 
 
 
