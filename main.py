@@ -84,21 +84,21 @@ def get_nike_ids(url):
         print(f"Error: {e}")
         return None 
     
-def get_prices(soup):
+def get_prices(url):
     res = requests.get(url)
     res.raise_for_status() 
     soup = BeautifulSoup(res.content, 'html.parser')
     prices = soup.find_all("div", {"role":"link","class":"product-price es__styling is--current-price css-11s12ax"})
     return [i.text.strip().replace("\xa0", "").replace("€","") for i in prices]
 
-def get_gender(soup):
+def get_gender(url):
     res = requests.get(url)
     res.raise_for_status() 
     soup = BeautifulSoup(res.content, 'html.parser')
     gender = soup.find_all("div", {"class": "product-card__titles"})
     return [i.text.strip().split()[-1].replace("1Zapatillas", "Unisex").replace("infantil", "Unisex").replace("pequeño/a","Unisex").replace("EasyOnZapatillas", "Mujeres") for i in gender]
 
-def available_count_colors(soup):
+def available_count_colors(url):
     res = requests.get(url)
     res.raise_for_status() 
     soup = BeautifulSoup(res.content, 'html.parser')
@@ -106,7 +106,7 @@ def available_count_colors(soup):
     available_colors = [i.text.strip().replace(" colores", "").replace(" color", "") for i in available_colors]
     return available_colors
 
-def get_brand(soup):
+def get_brand(url):
     res = requests.get(url)
     res.raise_for_status() 
     soup = BeautifulSoup(res.content, 'html.parser')
