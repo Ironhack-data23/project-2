@@ -45,8 +45,25 @@ Specific data points to scrape: product name, product ID, price, shoe category, 
 The aim of this study is to study the footwear products that these brands sell. The study's objectives are to evaluate and compare a number of variables, such as costs, sales, categories, and other relevant elements. With this investigation, we hope to identify and assess Nike and Adidas' respective advantages in the fiercely competitive shoe industry.
 
 ## *5. Analysis*
+During the data collection, different problems where encountered:  
+- Nike has a dynamical webpage, so for this case a selenium webscrapping would have been very usefull to extract shoes information. But instead I went through all the different shoe models and performed a BeautifulSoup webscrape. 
+- Nike do not have as mucha sales as Adidas do. For this reason, I couldn't compare the sales percentage.
+- Nike webpage didn't include the shoe ranking make by customer, so it was impossible to make a top 5 shoes.
+However I could compare between prices and shoes category. 
+
+Also, there was a handicap during this work, and is the difference of amount of product between each brands. From the whole dataset, adidas is an 83.3%, and nike just a 17% of the dataset.
+
+![Adidas vs Nike](images/numbers%20of%20products%20sale.png)
 
 ## *6. Results* 
+
+
+Adidas shoe prices:
+
+![Adidas](images/adidas.png)
+
+Nike shoe prices:
+![Nike]()
 
 ## *7. Conclusion*
 We can not conclude which brand is better, as it would be very abstract 
