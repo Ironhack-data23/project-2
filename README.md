@@ -45,28 +45,42 @@ Specific data points to scrape: product name, product ID, price, shoe category, 
 The aim of this study is to study the footwear products that these brands sell. The study's objectives are to evaluate and compare a number of variables, such as costs, sales, categories, and other relevant elements. With this investigation, we hope to identify and assess Nike and Adidas' respective advantages in the fiercely competitive shoe industry.
 
 ## *5. Analysis*
-During the data collection, different problems where encountered:  
-- Nike has a dynamical webpage, so for this case a selenium webscrapping would have been very usefull to extract shoes information. But instead I went through all the different shoe models and performed a BeautifulSoup webscrape. 
-- Nike do not have as mucha sales as Adidas do. For this reason, I couldn't compare the sales percentage.
-- Nike webpage didn't include the shoe ranking make by customer, so it was impossible to make a top 5 shoes.
-However I could compare between prices and shoes category. 
+Throughout the data collection process, various challenges were encountered:
 
-Also, there was a handicap during this work, and is the difference of amount of product between each brands. From the whole dataset, adidas is an 83.3%, and nike just a 17% of the dataset.
+Nike's dynamic webpage posed a hurdle; ideally, utilizing Selenium for web scraping would have efficiently extracted shoe information. However, due to this complexity, a manual approach using BeautifulSoup was adopted, involving navigating through different shoe models.
+
+A notable limitation arose from the disparity in sales volume between Nike and Adidas, making it impractical to directly compare sales percentages.
+
+Nike's webpage lacked customer-generated shoe rankings, hindering the creation of a definitive top 5 shoes list. Nevertheless, a comparative analysis was still possible, focusing on price and shoe category.
+
+Another significant factor influencing the analysis was the substantial difference in the number of products between the two brands. Adidas dominated the dataset with an 83.3% share, leaving Nike with only 17%.
 
 ![Adidas vs Nike](images/numbers%20of%20products%20sale.png)
 
+Additionally, the category distinction between the brands was evident, as depicted in the following barplot. While both fall into broad categories like Lifestyle and Sports, Adidas further divides its sports category into Adidas Core/Neo and Adidas Sports Performance.
+
+![Catgeory differences](images/category.png)
+
+In summarizing the dataset manipulation process, it was observed that Adidas boasted a greater variety of shoe models with fewer products per model, while Nike presented fewer models but a higher quantity of products.
+
 ## *6. Results* 
 
-
-Adidas shoe prices:
-
+Examining Adidas shoe prices:
 ![Adidas](images/adidas.png)
+Contrastingly, Nike pricing:
+![Nike](images/output.png)
+Notably, Adidas exhibited more price variations among its products.
 
-Nike shoe prices:
-![Nike]()
+Considering gender distribution:
+
+In the Adidas brand, there's a notable prevalence of male shoes compared to female ones.
+![Gender adidas](images/gender%20adidas.png)
+
+Similarly, in the Nike brand, there's a higher concentration of sport shoes for men compared to women.
+![Gender Nike](images/gender.png)
 
 ## *7. Conclusion*
-We can not conclude which brand is better, as it would be very abstract 
+Drawing a definitive conclusion about which brand is superior proves challenging due to the abstract nature of the comparison and the limited information. However, for those seeking cost-effective options, Adidas stands out with higher sales, although Nike may offer competitively priced products in some instances. 
 
 
 ## *8. Links*
